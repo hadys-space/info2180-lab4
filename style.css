@@ -1,0 +1,100 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#dcdcdc;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container{
+    display: grid; 
+    grid-template-columns: 1fr; 
+    background-color: rgb(26, 126, 159);
+    width: 100%;
+    margin: 0 auto;
+    height: 15vh;
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+   
+}
+
+.name{
+    font-size: 18px;          
+    margin-bottom: 15px;      
+    text-align: left;
+           
+} 
+
+h4{
+    margin: 18px 289px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+#searchHero{
+    width: 600px;
+    padding: 5px;
+    height: 22px;
+    margin: 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    align-content: left ;
+}
+
+#searchBtn{
+    padding:10px;
+    height: 32px;
+    background-color: rgb(191, 29, 29);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#display{
+    margin: 18px 289px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+#result {
+    width: 50%;          
+    margin: 20px auto;   
+    padding: 5px;       
+    text-align: left;  
+}
+
+
+h3 {
+    
+    font-size: 20px;          
+    margin-bottom: 15px;
+    text-align: left;           
+}
+
+p {
+    font-size: 16px;          
+    line-height: 1.5;         
+    margin-bottom: 20px;
+    text-align: left;        
+}
+#display hr{
+    width: 500%;        
+    margin: 10px auto;
+}
+
+.notfound{
+    font-size: 16px; 
+    color: rgb(188, 30, 30);                 
+    margin-bottom: 20px;
+    text-align: left; 
+    font-weight: bold;
+}
